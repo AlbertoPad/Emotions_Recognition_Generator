@@ -35,7 +35,17 @@ Visualization and interpretation: Visualize the results using appropriate tools,
 Iteration and improvement: Based on the evaluation and insights, iterate and improve the model as needed. This may involve refining the features, modifying the model architecture, or adjusting the training process.
 
 By following this methodology, researchers can develop effective models for emotion recognition and analysis using EEG data, which can be applied to various practical applications as previously discussed.
+
 ## Datas
+
+- **SEED:** EEG of 15 subjects. The data were collected while watching film clips. The videos were carefully selected to induce different types of emotions: positive, negative and neutral. https://bcmi.sjtu.edu.cn/home/seed/seed.html
+
+- **SEED_V:** EEG of 20 subjects. Evolution of the original SEED dataset. The number of emotion categories changes to five: happy, sad, fear, disgust and neutral. https://bcmi.sjtu.edu.cn/home/seed/seed-v.html
+
+- **SEED_GER:** EEG of 8 German subjects with positive, negative and neutral emotional labels. https://bcmi.sjtu.edu.cn/home/seed/seed-GER.html
+
+- **SEED_FRA:** EEG of 8 French subjects with positive, negative and neutral emotional labels. https://bcmi.sjtu.edu.cn/home/seed/seed-FRA.html
+
 
 ## Results
 
