@@ -74,13 +74,15 @@ GAN -> As we have seen in the results, the discriminator still identifies with s
 
 1º Improve the recognition model (CNN), understand and add the adaptive attention module in the model.
 
+2º Test an emotion recognition model that compares the signal images for each labelled emotion.
+
 2º Improve the GAN model trained as other input data (4D segments) or applying another method to reduce the information in a more correct way.
 
 3º Expand the database as it is difficult to find experiments so accurate and so well stored.
 
 4º Try to apply this methodology to other fields where it could be beneficial to recognise and generate electrical signals.
 
-5º
+5º 
 
 ## References
 
