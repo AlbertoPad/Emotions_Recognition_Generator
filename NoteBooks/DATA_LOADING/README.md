@@ -1,6 +1,6 @@
 # LOAD DATA, DESCOMPOSE AND TRANSFORM FORMAT IN .FIF
 
-This repository contains Python code for analyzing Electroencephalogram (EEG) data. The code uses several key libraries for EEG signal processing and data analysis.
+This repository contains Python code to analyse electroencephalogram (EEG) data from different databases (SEED, SEED_V, SEER-GER, SEED-FRA). There is a notebook for each database as each has different numbers of subjects, experiments, videos and time scales.
 
 ## Description
 The code performs the following:
