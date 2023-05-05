@@ -65,7 +65,7 @@ metrics GAN
 
 ## Conclusions
 
-CNN -> the model is very primitive and the expected accuracy value is not obtained. This is due to the structure of the model, as the article on which the CNN model of emotion recognition is based also consists of a type of self-adaptive attention module consisting of two sub-modules, the spatial attention module and the spectral attention module.
+CNN -> the model is very primitive and the expected accuracy value is not obtained. This is due to the structure of the model, since the article on which it is based also consists of a type of self-adaptive attention module made up of two sub-modules, the spatial attention module and the spectral attention module.
 
 GAN -> As we have seen in the results, the discriminator still identifies with some accuracy those that are false and real. On the other hand, the loss of the generator can still be improved. The big problem we have encountered at this point is that the data is so large and takes up so much space in  memory to train both models. That is the reason why we have had to interpolate the time scale to 50s for each file of each stimulus (range from 52s to 300s), losing a lot of information and making it harder for the generator to find a pattern.
 
@@ -76,11 +76,11 @@ GAN -> As we have seen in the results, the discriminator still identifies with s
 
 2º Test an emotion recognition model that compares the signal images for each labelled emotion.
 
-2º Improve the GAN model trained as other input data (4D segments) or applying another method to reduce the information in a more correct way.
+3º Improve the GAN model trained as other input data (4D segments) or applying another method to reduce the information in a more correct way.
 
-3º Expand the database as it is difficult to find experiments so accurate and so well stored.
+4º Expand the database as it is difficult to find experiments so accurate and so well stored.
 
-4º Try to apply this methodology to other fields where it could be beneficial to recognise and generate electrical signals.
+5º Try to apply this methodology to other fields where it could be beneficial to recognise and generate electrical signals.
 
 5º 
 
