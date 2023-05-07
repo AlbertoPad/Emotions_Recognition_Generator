@@ -18,7 +18,7 @@ The project leverages machine learning techniques, specifically deep learning an
 
 1. **Data collection:** Collect EEG data from subjects exposed to visual stimuli. These data were requested from Shanghai Jiao Tong University (https://bcmi.sjtu.edu.cn/home/seed/contacts.html) and they gave us access to their entire dataset of which only 4 (SEED, SEED_V, SEED-GER,SEED-FRA) are used, due to time and format.
 
-2. **Preprocessing:** This step includes filtering the signals in different frequency bands, normalisation to adapt all signals to the same time scale and segmentation of the data of each eeg into the different stimulations Positive, Negative and Neutral.
+2. **Preprocessing:** This step includes filtering the signals in different frequency bands, normaliZation to adapt all signals to the same time scale and segmentation of the data of each eeg into the different stimulations Positive, Negative and Neutral.
 
 3. **Feature extraction:** Extract relevant features from the preprocessing: signals in the different frequency bands, entropy differential (DE) and power spectral density (PSD).
 
