@@ -47,8 +47,10 @@ The project leverages machine learning techniques, specifically deep learning an
 
 9. **Iteration and improvement:**
 
-  - CNN -> epochs 20 - batch_size 32
+  - CNN -> epochs 100 - batch_size 32
   - GAN -> epochs 30 - batch_size 32
+  
+10. **Final Results**
 
 ## Datas
 
