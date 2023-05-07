@@ -41,7 +41,7 @@ The project leverages machine learning techniques, specifically deep learning an
    
    D_loss: A low value indicates that the discriminator performs well in classifying the input data as true or false.
    
-   acc.: Es la precisión del discriminador en clasificar datos de entrada que correctamente como reales o falsos.
+   acc.: It is the accuracy of the discriminator in correctly classifying input data as real or fake.
 
 8. **Visualization and interpretation:** For this project we have used the matplotib libraries and the libraries of the MNE library (https://mne.tools/stable/index.html). A map of the electrodes and the generated and real signals has been represented for visual comparison.
 
