@@ -18,7 +18,7 @@ The project leverages machine learning techniques, specifically deep learning an
 
 1. **Data collection:** Collect EEG data from subjects exposed to visual stimuli. These data were requested from Shanghai Jiao Tong University (https://bcmi.sjtu.edu.cn/home/seed/contacts.html) and they gave us access to their entire dataset of which only 4 (SEED, SEED_V, SEED-GER,SEED-FRA) are used, due to time and format.
 
-2. **Preprocessing:** This step includes filtering the signals in different frequency bands, normalisation to adapt all signals to the same time scale and segmentation of the data of each eeg into the different stimulations Positive, Negative and Neutral.
+2. **Preprocessing:** This step includes filtering the signals in different frequency bands, normaliZation to adapt all signals to the same time scale and segmentation of the data of each eeg into the different stimulations Positive, Negative and Neutral.
 
 3. **Feature extraction:** Extract relevant features from the preprocessing: signals in the different frequency bands, entropy differential (DE) and power spectral density (PSD).
 
@@ -41,14 +41,16 @@ The project leverages machine learning techniques, specifically deep learning an
    
    D_loss: A low value indicates that the discriminator performs well in classifying the input data as true or false.
    
-   acc.: Es la precisión del discriminador en clasificar datos de entrada que correctamente como reales o falsos.
+   acc.: It is the accuracy of the discriminator in correctly classifying input data as real or fake.
 
 8. **Visualization and interpretation:** For this project we have used the matplotib libraries and the libraries of the MNE library (https://mne.tools/stable/index.html). A map of the electrodes and the generated and real signals has been represented for visual comparison.
 
 9. **Iteration and improvement:**
 
-  - CNN -> epochs 20 - batch_size 32
+  - CNN -> epochs 100 - batch_size 32
   - GAN -> epochs 30 - batch_size 32
+  
+10. **Final Results**
 
 ## Datas
 
