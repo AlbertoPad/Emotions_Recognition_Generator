@@ -1,25 +1,29 @@
-# GAN model to create synthetic signals
-This repository contains code to generate artificial EEG data using Generative Adversarial Networks (GANs).
+# EEG Emotion Recognition
+This repository contains code for processing and analyzing EEG signals to perform emotion recognition. The code takes advantage of various libraries such as MNE, TensorFlow, Keras, and Scikit-learn to preprocess the data, build Convolutional Neural Networks (CNNs) models, and visualize the results.
 
-## Overview
+The EEG dataset used in this project is obtained from the SEED database available at the following link: https://bcmi.sjtu.edu.cn/home/seed/index.html
 
-1. Load and preprocess real EEG data.
-2. Create a GAN model, consisting of a generator and discriminator.
-3. Train the GAN using real EEG data.
-4. Generate artificial EEG data using the trained generator.
-5. Save and visualize the generated EEG data.
-6. Dependencies
+## Dependencies
+MNE
+TensorFlow
+Keras
+Scikit-learn
+NumPy
+SciPy
+Matplotlib
+Seaborn
+Description
 
-## Libraries:
-
-TensorFlow (for GAN model creation and training)
-MNE (for EEG data handling and preprocessing)
-NumPy, SciPy (for numerical operations)
-Matplotlib, Seaborn (for data visualization)
-## Results
-The generated artificial EEG data is saved in two NumPy files:
-
-generated_eeg.npy: Contains the generated EEG data in the same range as the preprocessed real EEG data.
-original_range_generated_eeg.npy: Contains the generated EEG data in the same range as the original raw EEG data.
-Additionally, the script visualizes the generated and real EEG data by plotting a topographic map and a time-domain plot using MNE.
+## The code performs the following steps:
+- Import libraries and set electrode positions for visualization.
+- Define frequency bands (delta, theta, alpha, beta, and gamma) and create a sparse map of zeros for further processing.
+- Process the segments and create a 4D input for the CNN model.
+- Preprocess the data by Winsorizing and standardizing the input.
+- Create labels for each emotion (positive, neutral, and negative) and concatenate them.
+- Split the data into training, validation, and testing sets.
+- Define and compile the CNN model using Keras.
+- Train the CNN model on the training data and evaluate its performance on the validation and testing sets.
+- 
+## Usage
+To use this code, simply clone this repository and run the Python script. The script will process the EEG data, train the CNN model, and output the results. Make sure to have the SEED dataset downloaded and placed in the correct directory before running the script.
 
