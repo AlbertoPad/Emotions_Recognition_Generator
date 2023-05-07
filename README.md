@@ -64,11 +64,18 @@ The project leverages machine learning techniques, specifically deep learning an
 
 
 ## Results
+### CNN
+![CNN - Results](https://github.com/AlbertoPad/Emotions_Recognition_Generator/blob/main/images/Captura%20de%20pantalla%202023-05-05%20125135.png?raw=true)
+<img src="https://github.com/AlbertoPad/Emotions_Recognition_Generator/blob/main/images/Captura%20de%20pantalla%202023-05-05%20125033.png?raw=true" alt="CNN - Accuracy" width="500" height="250">
 
-metrics CNN
+### GAN
+![GAN - Results](https://github.com/AlbertoPad/Emotions_Recognition_Generator/blob/main/images/Captura%20de%20pantalla%202023-05-05%20142741.png?raw=true)
+- Real
+<img src="https://github.com/AlbertoPad/Emotions_Recognition_Generator/blob/main/images/Captura%20de%20pantalla%202023-05-05%20142954.png?raw=true" alt="GAN - Original" width="500" height="250">
 
-image GAN original & generated
-metrics GAN
+- Synthtetic
+<img src="https://github.com/AlbertoPad/Emotions_Recognition_Generator/blob/main/images/Captura%20de%20pantalla%202023-05-05%20142939.png?raw=true" alt="GAN - Synthetic" width="500" height="250">
+
 
 ## Conclusions
 
@@ -89,7 +96,6 @@ metrics GAN
 
 5º Try to apply this methodology to other fields where it could be beneficial to recognise and generate electrical signals.
 
-5º 
 
 ## References
 
