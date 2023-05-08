@@ -1,7 +1,7 @@
-# EMOTION RECOGNITION & CREATION OF SYNTHETIC EMOTIONS & VISUALISATION
+# EMOTION RECOGNITION & CREATION OF ARTIFICIAL EMOTIONS & VISUALISATION
 
 ## Abstract
-The main objective of this project is to recognise positive, negative and neutral emotions from electroencephalography (EEG) data obtained from subjects exposed to visual stimulation. To achieve this goal, a convolutional neural network (CNN) model is developed to classify emotions. In addition, synthetic signals are generated using generative adversarial networks (GANs) and data interpolation to enrich the training dataset. Finally, the MNE library is used to visualise the signals and evaluate model performance.
+The main objective of this project is to recognise positive, negative and neutral emotions from electroencephalography (EEG) data obtained from subjects exposed to visual stimulation. To achieve this goal, a convolutional neural network (CNN) model is developed to classify emotions. In addition, artificial signals are generated using generative adversarial networks (GANs) and data interpolation to enrich the training dataset. Finally, the MNE library is used to visualise the signals and evaluate model performance.
 
 ## Context
 The context of this project is centered around the development of technology for the digital transformation of thoughts and the analysis of brain signals, with potential applications in various fields. Key areas of interest include:
@@ -73,8 +73,8 @@ The project leverages machine learning techniques, specifically deep learning an
 - Real
 <img src="https://github.com/AlbertoPad/Emotions_Recognition_Generator/blob/main/images/Captura%20de%20pantalla%202023-05-05%20142954.png?raw=true" alt="GAN - Original" width="500" height="250">
 
-- Synthtetic
-<img src="https://github.com/AlbertoPad/Emotions_Recognition_Generator/blob/main/images/Captura%20de%20pantalla%202023-05-05%20142939.png?raw=true" alt="GAN - Synthetic" width="500" height="250">
+- Artificial
+<img src="https://github.com/AlbertoPad/Emotions_Recognition_Generator/blob/main/images/Captura%20de%20pantalla%202023-05-05%20142939.png?raw=true" alt="GAN - Artificial" width="500" height="250">
 
 
 ## Conclusions
