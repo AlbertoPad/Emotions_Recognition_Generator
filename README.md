@@ -36,16 +36,16 @@ The project leverages machine learning techniques, specifically deep learning an
 4. **Feature selection:** The features selected for the emotion recognition model are taken from the article (Bands Frequencies - Position and Signals by Channels - DE - PSD): https://link.springer.com/article/10.1007/s11571-021-09751-5
 
 5. **Model development:** In this project, two models have been created to meet the objectives. A CNN model, whose function is to recognise whether the input stimulations are POSITIVE, NEUTRAL or NEGATIVE emotions. And a GAN model, whose objective is to generate synthetic stimuli.
-
+https://github.com/AlbertoPad/Emotions_Recognition_Generator/tree/main/NoteBooks/MODEL_GAN
 6. **Model training and validation:** 
-   - CNN -> optimizer Adam (lr=0.0002) - loss Categorical_crossentropy
+   - <a href="https://github.com/AlbertoPad/Emotions_Recognition_Generator/tree/main/NoteBooks/MODEL_RECOGNITION" target="blank">CNN </a> -> optimizer Adam (lr=0.0002) - loss Categorical_crossentropy
    
-   - GAN (generator & discriminator) -> optimizer Adam (lr=0.0002) - loss binary_crossentropy 
+   - <a href="https://github.com/AlbertoPad/Emotions_Recognition_Generator/tree/main/NoteBooks/MODEL_GAN" target="blank">GAN (generator & discriminator) </a> -> optimizer Adam (lr=0.0002) - loss binary_crossentropy 
 
 7. **Evaluation:**
-   - CNN -> Accuracy & loss
+   - <a href="https://github.com/AlbertoPad/Emotions_Recognition_Generator/tree/main/NoteBooks/MODEL_RECOGNITION" target="blank">CNN </a> -> Accuracy & loss
    
-   - GAN (generator) -> Generator loss (G_loss) - Discriminator loss (D_loss) & accuracy (acc.)
+   - <a href="https://github.com/AlbertoPad/Emotions_Recognition_Generator/tree/main/NoteBooks/MODEL_GAN" target="blank">GAN (generator & discriminator)</a> -> Generator loss (G_loss) - Discriminator loss (D_loss) & accuracy (acc.)
    
    **Notes:**  
    G_loss: A high value indicates that the generator needs to be improved.
