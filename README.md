@@ -1,5 +1,5 @@
 # EMOTION RECOGNITION & CREATION OF ARTIFICIAL EMOTIONS & VISUALISATION
-by:Alberto Padilla Nieto & Marcho A. Hernani
+by: **Alberto Padilla Nieto & Marcho A. Hernani**
 
 ## Abstract
 The main objective of this project is to recognise positive, negative and neutral emotions from electroencephalography (EEG) data obtained from subjects exposed to visual stimulation. To achieve this goal, a convolutional neural network (CNN) model is developed to classify emotions. In addition, artificial signals are generated using generative adversarial networks (GANs) and data interpolation to enrich the training dataset. Finally, the MNE library is used to visualise the signals and evaluate model performance.
