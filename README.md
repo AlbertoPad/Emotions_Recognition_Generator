@@ -2,8 +2,12 @@
 <p align="center">
    <img src="https://github.com/AlbertoPad/Emotions_Recognition_Generator/blob/main/images/A_M.png?raw=true" alt="WE">
 </p>
-<p align="center">Alberto Padilla Nieto & Marcho A. Hernani</p>
 
+<p align="center">
+   <img src="https://github.com/AlbertoPad/Emotions_Recognition_Generator/blob/main/images/github-mark.png?raw=true" alt="WE" width="20" height="20"><a href="https://github.com/AlbertoPad" target="blank">Alberto Padilla  </a> 
+   &
+   <img src="https://github.com/AlbertoPad/Emotions_Recognition_Generator/blob/main/images/github-mark.png?raw=true" alt="WE" width="20" height="20"> <a href="https://github.com/marcoh2325" target="blank">Marco A. Hernani </a>
+</p>
 
 
 
