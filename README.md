@@ -1,6 +1,5 @@
-# EMOTION RECOGNITION & CREATION OF ARTIFICIAL EMOTIONS & VISUALISATION
 <p align="center">
-   <img src="https://github.com/AlbertoPad/Emotions_Recognition_Generator/blob/main/images/A_M.png?raw=true" alt="WE">
+   <img src="https://github.com/AlbertoPad/Emotions_Recognition_Generator/blob/main/images/A_M.png?raw=true" alt="WE" height= "15%" width="15%">
 </p>
 
 <p align="center">
@@ -8,6 +7,12 @@
    &
    <img src="https://github.com/AlbertoPad/Emotions_Recognition_Generator/blob/main/images/github-mark.png?raw=true" alt="WE" width="20" height="20"> <a href="https://github.com/marcoh2325" target="blank">Marco A. Hernani </a>
 </p>
+
+# EMOTION RECOGNITION & CREATION OF ARTIFICIAL EMOTIONS & VISUALISATION
+<p align="center">
+   <img src="https://media.giphy.com/media/ja0M23DE1fipScX58W/giphy.gif" alt="WE">
+</p>
+
 
 
 
@@ -26,6 +31,9 @@ The project leverages machine learning techniques, specifically deep learning an
 
 
 ## Methodology
+<p align="center">
+   <img src="https://github.com/AlbertoPad/Emotions_Recognition_Generator/blob/main/images/Captura%20de%20pantalla%202023-05-09%20105839.png" alt="WE">
+</p>
 
 1. **Data collection:** Collect EEG data from subjects exposed to visual stimuli. These data were requested from Shanghai Jiao Tong University (https://bcmi.sjtu.edu.cn/home/seed/contacts.html) and they gave us access to their entire dataset of which only 4 (SEED, SEED_V, SEED-GER,SEED-FRA) are used, due to time and format.
 
@@ -77,10 +85,12 @@ https://github.com/AlbertoPad/Emotions_Recognition_Generator/tree/main/NoteBooks
 ## Results
 ### CNN
 ![CNN - Results](https://github.com/AlbertoPad/Emotions_Recognition_Generator/blob/main/images/Captura%20de%20pantalla%202023-05-05%20125135.png?raw=true)
+
 <img src="https://github.com/AlbertoPad/Emotions_Recognition_Generator/blob/main/images/Captura%20de%20pantalla%202023-05-05%20125033.png?raw=true" alt="CNN - Accuracy" width="500" height="250">
 
 ### GAN
 ![GAN - Results](https://github.com/AlbertoPad/Emotions_Recognition_Generator/blob/main/images/Captura%20de%20pantalla%202023-05-05%20142741.png?raw=true)
+
 - Real
 <img src="https://github.com/AlbertoPad/Emotions_Recognition_Generator/blob/main/images/Captura%20de%20pantalla%202023-05-05%20142954.png?raw=true" alt="GAN - Original" width="500" height="250">
 
