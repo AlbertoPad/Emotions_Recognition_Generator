@@ -1,5 +1,5 @@
 <p align="center">
-   <img src="https://github.com/AlbertoPad/Emotions_Recognition_Generator/blob/main/images/A_M.png?raw=true" alt="WE" height= "15%" width="15%">
+   <img src="https://github.com/AlbertoPad/Emotions_Recognition_Generator/blob/main/images/A_M.png?raw=true" alt="WE" height= "20%" width="20%">
 </p>
 
 <p align="center">
